@@ -1,12 +1,102 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>my website</title>
+  <meta charset="utf-8">
+  <title>Freelance Business</title>
+  <style>
+    body {
+      background-color: #333;
+      color: #fff;
+      font-family: Arial, sans-serif;
+    }
+    h1 {
+      text-align: center;
+      font-size: 2em;
+      margin: 0.67em 0;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #444;
+      padding: 10px 20px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    .nav a {
+      color: #fff;
+      text-decoration: none;
+      font-size: 1.2em;
+    }
+    .nav a:hover {
+      color: #ccc;
+    }
+    .main {
+      display: flex;
+      flex-wrap: wrap;
+      margin: 20px 0;
+    }
+    .card {
+      flex: 0 0 calc(50% - 10px);
+      margin: 5px;
+      background-color: #555;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    .card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      object-position: center;
+    }
+    .card h2 {
+      margin: 10px;
+      font-size: 1.5em;
+    }
+    .card p {
+      margin: 10px;
+      font-size: 1.2em;
+      line-height: 1.5;
+    }
+    .card a {
+      display: block;
+      margin: 10px;
+      padding: 10px;
+      background-color: #666;
+      color: #fff;
+      text-align: center;
+      text-decoration: none;
+      font-size: 1.2em;
+      border-radius: 5px;
+    }
+    .card a:hover {
+      background-color: #777;
+    }
+    .footer {
+      background-color: #444;
+      color: #ccc;
+      font-size: 1em;
+      text-align: center;
+      padding: 20px;
+    }
+    .footer a {
+      color: #ccc;
+      text-decoration: none;
+    }
+    .footer a:hover {
+      color: #fff;
+    }
+  </style>
 </head>
 <body>
-  <h1>Welcome to my website</h1>
-  <p>This website was created by following the <a href="https://roadie.io/blog/roadie-backstage-scaffolder-website/">Backstage scaffolder tutorial published by Roadie</a></p>
-</body>
-</html>
+  <div class="nav">
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Services</a>
+    <a href="#">Contact</a>
+  </div>
+  <div
+>
